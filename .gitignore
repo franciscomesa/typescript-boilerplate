@@ -1,7 +1,8 @@
 #Dependencies
 node_modules/
-
 build
+docs-html/
+docs/
 
 #VS Code
 .vscode
