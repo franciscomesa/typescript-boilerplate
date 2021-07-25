@@ -1,8 +1,14 @@
 #Dependencies
 node_modules/
-build
+
+
+#Documentation
 docs-html/
 docs/
+
+#Node.js artifacts
+package-lock.json
+build/
 
 #VS Code
 .vscode
@@ -12,3 +18,4 @@ docs/
 
 # Coverage
 coverage
+package-lock.json
