@@ -1,6 +1,7 @@
 # typescript-boilerplate
 Typescript and Node boilerplate template developer ready 🚀 to get started quickly with all basic tools included and configured.
 
+
 ## 🧑‍🔬 Basic tools included and preconfigured to be used
 - [Typescript 4](https://www.typescriptlang.org/)
 - [Jest 27](https://jestjs.io/docs/getting-started) testing
@@ -25,6 +26,10 @@ cd your_local_project_name
 After clone, just install project dependencies with `npm i` command.
 
 Test your installation with preconfigured test and script
+
+`npm start`
+
+💪 Ready for code!
 
 
 ## Scripts configured
