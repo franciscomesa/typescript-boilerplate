@@ -16,7 +16,9 @@
     "test:watch": "npm test -- --watchAll",
     "lint": "eslint . --ext .ts",
     "lint:fix": "npm run lint -- --fix",
-    "dependencies:purge": "rm -rf node_modules package-lock.json build && npm install"
+    "dependencies:purge": "rm -rf node_modules package-lock.json build && npm install",
+    "docs:generate": "auto-changelog -p; rm -rf docs && typedoc lib/ --plugin typedoc-plugin-markdown --out docs && git add CHANGELOG.md",
+    "docs:generate:html": "auto-changelog -p; rm -rf docs-html && typedoc lib/ --plugin none --out docs-html && git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
@@ -52,9 +54,16 @@
     "@types/jest": "^26.0.24",
     "@typescript-eslint/eslint-plugin": "^4.28.4",
     "@typescript-eslint/parser": "^4.28.4",
+    "auto-changelog": "^2.3.0",
     "eslint": "^7.31.0",
     "jest": "^27.0.6",
     "ts-jest": "^27.0.4",
-    "typedoc": "^0.21.4"
+    "typedoc": "^0.21.4",
+    "typedoc-plugin-markdown": "^3.10.4"
+  },
+  "auto-changelog": {
+    "commitLimit": false,
+    "unreleased": true,
+    "sortCommits": "date-desc"
   }
 }
