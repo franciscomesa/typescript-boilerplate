@@ -43,6 +43,7 @@ Test your installation with preconfigured test and script
 - `lint:fix`: automatically fix source files and test with linter
 - `dependencies:purge`: remove installed packages and install all of them again
 - `docs:generate`: generate CHANGELOG and documentation in Markdown format
+- `docs:update`: generate CHANGELOG and documentation in Markdown format and commit changelog
 - `docs:generate:html`: generate CHANGELOG and documentation in HTML format
 
 ## Next steps

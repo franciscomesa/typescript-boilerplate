@@ -18,6 +18,7 @@
     "lint:fix": "npm run lint -- --fix",
     "dependencies:purge": "rm -rf node_modules package-lock.json build && npm install",
     "docs:generate": "auto-changelog -p; rm -rf docs && typedoc lib/ --plugin typedoc-plugin-markdown --out docs && git add CHANGELOG.md",
+    "docs:update": "npm run docs:generate && git commit -m \"📝 update docs\"",
     "docs:generate:html": "auto-changelog -p; rm -rf docs-html && typedoc lib/ --plugin none --out docs-html && git add CHANGELOG.md"
   },
   "repository": {
