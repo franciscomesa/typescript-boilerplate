@@ -1,0 +1,13 @@
+#Dependencies
+node_modules/
+
+build
+
+#VS Code
+.vscode
+
+#Jetbrains IDEs
+.idea
+
+# Coverage
+coverage

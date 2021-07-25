@@ -2,9 +2,21 @@
   "name": "typescript-boilerplate",
   "version": "1.0.0",
   "description": "Typescript and Node boilerplate template developer ready 🚀 to get started quickly with all basic tools included and configured.",
-  "main": "index.js",
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npm run build",
+    "prestart": "npm run build",
+    "start": "node build/index.js",
+    "build": "npm run lint && npm test && tsc",
+    "test": "jest",
+    "test:coverage": "npm test -- --coverage",
+    "test:watch": "npm test -- --watchAll",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "npm run lint -- --fix",
+    "dependencies:purge": "rm -rf node_modules package-lock.json build && npm install"
   },
   "repository": {
     "type": "git",
@@ -26,10 +38,23 @@
     "node-boilerplate",
     "backend"
   ],
-  "author": "Francisco Mesa",
+  "author": "Francisco Mesa <franciscomesa@gmail.com> (https://franciscomesa.es)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/franciscomesa/typescript-boilerplate/issues"
   },
-  "homepage": "https://github.com/franciscomesa/typescript-boilerplate#readme"
+  "homepage": "https://github.com/franciscomesa/typescript-boilerplate#readme",
+  "dependencies": {
+    "@types/node": "^16.4.2",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "typedoc": "^0.21.4"
+  }
 }
