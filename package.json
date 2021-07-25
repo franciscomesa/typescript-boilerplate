@@ -1,0 +1,35 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Typescript and Node boilerplate template developer ready 🚀 to get started quickly with all basic tools included and configured.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscomesa/typescript-boilerplate"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "node",
+    "boilerplate",
+    "jest",
+    "nodejs",
+    "eslint",
+    "template",
+    "starter-template",
+    "nodejs-cli",
+    "typescript-boilerplate",
+    "node-typescript-boilerplate",
+    "node-boilerplate",
+    "backend"
+  ],
+  "author": "Francisco Mesa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franciscomesa/typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/franciscomesa/typescript-boilerplate#readme"
+}
