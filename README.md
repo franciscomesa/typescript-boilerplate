@@ -10,6 +10,7 @@ Typescript and Node boilerplate template developer ready 🚀 to get started qui
 - Documentation generator [Typedoc](http://typedoc.org/)
 - Linting with [ESLint 7](https://eslint.org/)
 - [.editorconfig](https://editorconfig.org/) settings for consistent file format
+- CHANGELOG generator [auto-changelog](https://github.com/cookpete/auto-changelog)
 - 🔖 Available under the MIT license.
 
 
@@ -41,7 +42,8 @@ Test your installation with preconfigured test and script
 - `lint`: lint source files and tests
 - `lint:fix`: automatically fix source files and test with linter
 - `dependencies:purge`: remove installed packages and install all of them again
-
+- `docs:generate`: generate CHANGELOG and documentation in Markdown format
+- `docs:generate:html`: generate CHANGELOG and documentation in HTML format
 
 ## Next steps
 - Remove unused settings in config files.
