@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@example": [
+        "src/path/to/example"
+      ]
+    }
+  }
+}
