@@ -4,7 +4,7 @@ Typescript and Node boilerplate template developer ready 🚀 to get started qui
 
 ## 🧑‍🔬 Basic tools included and preconfigured to be used
 - [Typescript 4](https://www.typescriptlang.org/)
-- [Jest 27](https://jestjs.io/docs/getting-started) testing
+- [Jest 29](https://jestjs.io/docs/getting-started) testing
 - Type definitions for Node.js and Jest
 - Preconfigured [scripts](#scripts-configured) for common operations
 - Documentation generator [Typedoc](http://typedoc.org/)
